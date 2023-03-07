@@ -1,0 +1,67 @@
+body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+#contact-us
+{
+    width: 100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+}
+.leftsidebar
+{
+    width:100%;
+    height:auto;
+    background-color: aquamarine;
+    padding: 25px;
+}
+.rightsidebar
+{
+    width:100%;
+    height:auto;
+    background-color: burlywood;
+    padding: 25px;
+}
+h1
+{
+    color:gray;
+    text-align:center;
+    font-size: 45px;
+}
+hr
+{
+    width:40%;
+    border:solid 2px black;
+
+}
+.navbar
+{
+    width:100%;
+    height:auto;
+    padding:10px;
+    background-color: black;
+}
+.navbar ul li
+{
+    display: inline-block;
+    padding:5px 100px;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    list-style-type: none;
+}
+.hr
+{ 
+    border-right: solid 1px white;
+}
+.hr
+{
+
+    border-right: none;
+
+}
